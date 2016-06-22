@@ -1,0 +1,128 @@
+/*POPULAR ROUTES CONTAINER */
+div#popular-routes{
+	width: 100%;
+	padding: 2px 0 10px;
+
+}
+div#popular-routes #routes-wrapper p.title{
+	font-size: 23px;
+	font-weight: bold;
+	color: #1E90FF;
+	text-align: center;
+	margin: 15px 0;
+}
+div#popular-routes #routes-wrapper{
+	width: 98%;
+	margin: auto;
+}
+div#popular-routes div#routes-wrapper article{
+	margin: 10px auto;
+	padding-top: 10px;
+	border-top: 1px solid #D8BFD8;
+}
+div#popular-routes div#routes-wrapper article section{
+	display: inline-block;
+}
+div#popular-routes div#routes-wrapper article section p{
+	font-size: 13px;
+}
+div#popular-routes div#routes-wrapper article section p.price-details{
+	font-style: italic;
+	font-weight: bold;
+}
+div#popular-routes div#routes-wrapper article section p.price-details span{
+	font-size: 12px;
+	color: red;
+}
+div#popular-routes div#routes-wrapper article section img{
+	width: 12px;
+	height: 12px;
+}
+div#popular-routes div#routes-wrapper article section.not-arrow{
+	width: 45%;
+	position: relative;
+}
+div#popular-routes div#routes-wrapper article section.arrow{
+	width: 7%;
+	margin: -95px 0 auto;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	color: blue;
+}
+div#popular-routes div#routes-wrapper article section div.stuff{
+	display: inline-block;
+}
+div#popular-routes div#routes-wrapper article section div.deal-image{
+	width: 26.5%;
+	margin-right: 1.5%;
+	overflow: hidden;
+}
+div#popular-routes div#routes-wrapper article section div.deal-image img{
+	width: 120px;
+	height: 80px;
+	border: 3px solid #DCDCDC;
+	outline: 1px solid #F4F4F4;
+	margin-top: 8px;
+	margin-left: ;
+	border-radius: 3px;
+}
+div#popular-routes div#routes-wrapper article section div.deal-desc{
+	width: 56%;
+	margin-right: 1%;
+	margin-bottom: -40px;
+	margin-top: 4px;
+	position: absolute;
+	margin-left: 1%;
+}
+div#popular-routes div#routes-wrapper article section div.deal-desc p span{
+	color: blue;
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 7px;
+}
+div#popular-routes div#routes-wrapper article section div.deal-desc p.rating{
+	padding-top: 2px;
+}
+div#popular-routes div#routes-wrapper article section div.deal-desc p.rating span{
+	color: black;
+	font-size: 12px;
+	margin-left: 1px;
+}
+div#popular-routes div#routes-wrapper article section div.deal-price{
+	width: 13%;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+div#popular-routes div#routes-wrapper article section .stuff ul li{
+	list-style: none;
+	float: left;
+}
+/* END OF THE POPULAR ROUTES AREA */
+
+
+
+
+
+
+
+
+
+/* @group Misc */
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* @end */

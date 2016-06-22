@@ -1,0 +1,63 @@
+body {
+    padding-top: 60px;
+}
+#company{
+ 
+}
+a.navbar-brand{
+  color: #436EEE;
+  font-weight: bold;
+  font-size: 26px;
+  font-style: italic;
+}
+nav ul.nav>li{
+  font-weight: bold;
+}
+.seperator{
+  margin: 40px 0 20px;
+  border-top: 1px solid #e3e3e3;
+}
+.bg-grey {
+  background-color: #f9f9f9;
+}
+
+/*image array div width and other styles */
+#image-array{
+  position: relative;
+  width: 32%;
+  float: left;
+  margin-left: 10px;
+}
+#image-array img{
+  width: 140px;
+  height: 140px;
+  border: 5px solid #F5F5F5;
+  outline: 1px solid #DCDCDC;
+
+}
+#image-array img#one{
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  left: 0;
+  transform: rotate(0.5deg);
+}
+#image-array img#two{
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+  left: 25px;
+  transform: rotate(-1deg);
+}
+#image-array img#three{
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  left: 40px;
+}
+#image-array img#four{
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  left: 60px;
+}

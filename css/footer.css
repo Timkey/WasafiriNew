@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	width: 100%;
+	background: url('../images/dark.png');
+	/*background-color: rgba(81,81,81,1);*/
+	padding: 15px 0;
+	color: white;
+}
+footer article{
+	width: 96%; /*96%*/
+	margin: auto;
+}
+footer article section{
+	display: inline-block;
+	width: 18.5%;
+	margin-right: 1%;
+	padding-bottom: 20px;
+}
+footer article section:first-child{
+	margin-left: 4.5%;
+}
+footer article section.last{
+	margin-right: 0;
+	width: 15%;
+}
+footer article section p.title{
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+footer article section a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+footer article section a img{
+	width: 28px;
+	height: 28px;
+}
+footer article section a img.pay{
+	width: 33px;
+	height: 28px;
+}
+footer article section a img.mpesa{
+	width: 49px;
+	height: 25px;
+}
+footer article section p.coming-soon{
+	margin-left: 25px;
+	font-style: italic;
+	font-size: 13px;
+	color: gray;
+}
+footer article p#copyright{
+	text-align: center;
+	padding: 15px 0 0;
+	border-top: 1px solid black;
+}
