@@ -1,0 +1,12 @@
+@import "compass/utilities/sprites";
+@import "whychos/*.png";
+@include all-whychos-sprites;
+
+//Get the image sizes
+$height: whychos-sprites-height(glyph-cog);
+$width: whychos-sprites-width(glyph-cog);
+
+.whychos-sprites span {
+	height: $height;
+	width: $width;
+}

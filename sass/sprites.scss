@@ -1,0 +1,14 @@
+@import "compass/utilities/sprites";
+@import "custos/*.png";
+@include all-custos-sprites;
+
+//Get the image sizes
+$height: custos-sprite-height(glyph-envelope);
+$width: custos-sprite-width(glyph-envelope);
+
+.glyph-sprites p span{
+	display: block;
+   float: left;
+	height: $height;
+	width: $width;
+}

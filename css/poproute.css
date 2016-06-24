@@ -9,7 +9,6 @@ div#popular-routes #routes-wrapper p.title{
 	font-weight: bold;
 	color: #1E90FF;
 	text-align: center;
-	margin: 15px 0;
 }
 div#popular-routes #routes-wrapper{
 	width: 98%;
@@ -17,7 +16,7 @@ div#popular-routes #routes-wrapper{
 }
 div#popular-routes div#routes-wrapper article{
 	margin: 10px auto;
-	padding-top: 10px;
+	padding: 10px 0;
 	border-top: 1px solid #D8BFD8;
 }
 div#popular-routes div#routes-wrapper article section{
@@ -25,6 +24,7 @@ div#popular-routes div#routes-wrapper article section{
 }
 div#popular-routes div#routes-wrapper article section p{
 	font-size: 13px;
+	margin: 0;
 }
 div#popular-routes div#routes-wrapper article section p.price-details{
 	font-style: italic;
@@ -83,7 +83,7 @@ div#popular-routes div#routes-wrapper article section div.deal-desc p span{
 	margin-left: 7px;
 }
 div#popular-routes div#routes-wrapper article section div.deal-desc p.rating{
-	padding-top: 2px;
+	padding-top: 0px;
 }
 div#popular-routes div#routes-wrapper article section div.deal-desc p.rating span{
 	color: black;
@@ -96,19 +96,15 @@ div#popular-routes div#routes-wrapper article section div.deal-price{
 	bottom: 5px;
 	right: 10px;
 }
+div#popular-routes div#routes-wrapper article section .stuff ul{
+	margin: 0;
+	padding: 0;
+}
 div#popular-routes div#routes-wrapper article section .stuff ul li{
 	list-style: none;
 	float: left;
 }
 /* END OF THE POPULAR ROUTES AREA */
-
-
-
-
-
-
-
-
 
 /* @group Misc */
 .clearfix:after {

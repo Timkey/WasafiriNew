@@ -1,0 +1,32 @@
+/* line 72, whychos/*.png */
+.whychos-sprite, .whychos-glyph-cog, .whychos-glyph-ok, .whychos-glyph-thumbs-up, .whychos-glyph-time {
+  background-image: url('../img/whychos-s61b1225b25.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.whychos-glyph-cog {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.whychos-glyph-ok {
+  background-position: 0 -35px;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.whychos-glyph-thumbs-up {
+  background-position: 0 -70px;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.whychos-glyph-time {
+  background-position: 0 -105px;
+}
+
+/* line 9, ../sass/sprite.scss */
+.whychos-sprites span {
+  height: 35px;
+  width: 35px;
+  display: block;
+}

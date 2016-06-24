@@ -1,0 +1,44 @@
+/* line 88, custos/*.png */
+.custos-sprite, .custos-glyph-briefcase, .custos-glyph-envelope, .custos-glyph-phone-alt, .custos-glyph-print, .custos-glyph-question-sign, .custos-glyph-user {
+  background-image: url('../img/custos-s936cd09bc3.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.custos-glyph-briefcase {
+  background-position: 0 0;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.custos-glyph-envelope {
+  background-position: 0 -24px;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.custos-glyph-phone-alt {
+  background-position: 0 -48px;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.custos-glyph-print {
+  background-position: 0 -72px;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.custos-glyph-question-sign {
+  background-position: 0 -96px;
+}
+
+/* line 84, ../../../../home/kuria/.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.custos-glyph-user {
+  background-position: 0 -120px;
+}
+
+/* line 9, ../sass/sprites.scss */
+.glyph-sprites p span {
+  float: left;
+  height: 24px;
+  width: 27px;
+  display: block;
+  padding-right: 40px;
+}
